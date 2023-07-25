@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+			integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			crossorigin="anonymous"
+		/>
+		<title>Document</title>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<div class="container my-2">
+			<div class="row justify-content-center search">
+				<div class="col-lg-6">
+					<div class="card">
+						<div class="header d-flex">
+							<div class="left">
+								<img src="./assets/images/bd_logo.png" alt="" />
+							</div>
+							<div class="right">
+								<div class="first">
+									<span>Ministry of Education</span>
+									<img src="./assets/images/banner_flag.jpg" alt="" />
+								</div>
+
+								<div class="second">
+									<span
+										>Intermediate and Secondary Education Boards
+										Bangladesh</span
+									>
+								</div>
+								<div class="third">
+									<span>Official Website of Education Board </span>
+								</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="box">
+								<div class="searchmsg"></div>
+								<form id="submitForm">
+									<div class="spinner">
+										<img
+											src="./assets/images/output-onlinegiftools.gif"
+											alt=""
+										/>
+									</div>
+									<div class="box-element d-flex">
+										<div class="box-item">
+											<p><b>Examination</b></p>
+											<!-- <p><b>Year</b> &nbsp; &nbsp; :</p> -->
+										</div>
+										<div class="boxdot">:</div>
+										<div class="box-content">
+											<select name="exam" id="">
+												<option value="SSC/Dhakil/Equivalent">
+													SSC/Dhakil/Equivalent
+												</option>
+												<option value="JSC/JDC">JSC/JDC</option>
+												<option value="SSC/Dhakil">SSC/Dhakil</option>
+												<option value="SSC/Vocational">SSC/Vocational</option>
+												<option value="HSC/Alim">HSC/Alim</option>
+												<option value="HSC/Vocational">HSC/Vocational</option>
+												<option value="HSC(BM)">HSC(BM)</option>
+												<option value="Diploma in Commerce">
+													Diploma in Commerce
+												</option>
+												<option value="Diploma in Business Studies">
+													Diploma in Business Studies
+												</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="box-element d-flex my-2">
+										<div class="box-item">
+											<p><b>Year</b></p>
+											<!-- <p><b>Year</b> &nbsp; &nbsp; :</p> -->
+										</div>
+										<div class="boxdot">:</div>
+										<div class="box-content">
+											<select name="year" id="">
+												<option value="">Select One</option>
+												<option value="2023">2023</option>
+												<option value="2022">2022</option>
+												<option value="2021">2021</option>
+												<option value="2020">2020</option>
+												<option value="2019">2019</option>
+												<option value="2018">2018</option>
+												<option value="2017">2017</option>
+												<option value="2016">2016</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="box-element d-flex my-2">
+										<div class="box-item">
+											<p><b>Board</b></p>
+											<!-- <p><b>Year</b> &nbsp; &nbsp; :</p> -->
+										</div>
+										<div class="boxdot">:</div>
+										<div class="box-content">
+											<select name="board" id="">
+												<option value="">Select One</option>
+												<option value="Barisal">Barisal</option>
+												<option value="Cumilla">Cumilla</option>
+												<option value="Chittagong">Chittagong</option>
+												<option value="Dhaka">Dhaka</option>
+												<option value="Dinajpur">Dinajpur</option>
+												<option value="Jessore">Jessore</option>
+												<option value="Mymensingh">Mymensingh</option>
+												<option value="Rajshahi">Rajshahi</option>
+												<option value="Sylhet">Sylhet</option>
+												<option value="Madrasha">Madrasha</option>
+												<option value="Technical">Technical</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="box-element d-flex my-2">
+										<div class="box-item">
+											<p><b>Roll</b></p>
+											<!-- <p><b>Year</b> &nbsp; &nbsp; :</p> -->
+										</div>
+										<div class="boxdot">:</div>
+										<div class="box-content">
+											<input type="text" name="roll" />
+										</div>
+									</div>
+
+									<div class="box-element d-flex my-2">
+										<div class="box-item">
+											<p><b>Reg: No</b></p>
+											<!-- <p><b>Year</b> &nbsp; &nbsp; :</p> -->
+										</div>
+										<div class="boxdot">:</div>
+										<div class="box-content">
+											<input type="text" name="reg" />
+										</div>
+									</div>
+
+									<div class="box-element d-flex my-2">
+										<div class="box-item">
+											<span class="random1"></span>
+											<span class="random2"></span>
+											<!-- <p><b>Year</b> &nbsp; &nbsp; :</p> -->
+										</div>
+										<div class="boxdot">=</div>
+										<div class="box-content">
+											<input type="text" name="sum"/>
+										</div>
+									</div>
+
+									<div class="box-element d-flex my-2">
+										<div class="box-item"></div>
+										<div class="boxdot"></div>
+										<div class="box-content">
+											<button class="" type="reset">Reset</button>
+											<button class="" type="submit">Submit</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+
+						<div class="footer d-flex justify-content-between">
+							<div class="footer-left">
+								<span
+									>©2005-2023 Ministry of Education, All rights reserved.</span
+								>
+							</div>
+							<div class="footer-right">
+								<span>Powered by</span>
+								<img src="./assets/images/tbl_logo.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="result"></div>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"
+		></script>
+
+		<script src="./search.js"></script>
+		<script src="./src/data.js"></script>
+		<script src="./src/function.js"></script>
+		<script src="./src/main.js"></script>
+	</body>
+</html>

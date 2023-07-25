@@ -1,0 +1,211 @@
+@import url('https://fonts.cdnfonts.com/css/verdana');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #eeeeee;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.store {
+	margin: 15px;
+}
+.col-lg-6 {
+	width: 668px !important;
+}
+.form-control {
+	padding: 4px 8px;
+	font-size: 12px;
+}
+.first {
+	background-color: #007814;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #5bc56b;
+}
+.first span {
+	display: block;
+	font-size: 17px;
+	font-weight: 900;
+	color: #95e17d;
+	padding: 15px 0px 2px 8px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+	padding: 10px;
+}
+.left {
+	background-color: #eeeeee;
+}
+.left img {
+	padding: 18px 31px;
+}
+
+.second {
+	background-color: #007814;
+}
+.second span {
+	display: block;
+	font-size: 17px;
+	color: white;
+	font-weight: 700;
+	padding: 5px 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	letter-spacing: 1.1px;
+}
+.third {
+	background: linear-gradient(#68af63, rgb(173, 230, 172));
+	text-align: end;
+	border-top: 1px solid white;
+}
+.third span {
+	display: block;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 5px 10px;
+}
+
+.box {
+	width: 478px;
+
+	border: 1px solid rgb(133, 131, 131);
+	margin: 0 auto;
+	padding: 26px 58px;
+}
+.box .box-item {
+	width: 130px;
+}
+.box .boxdot {
+	width: 10px;
+}
+.box .box-content {
+	width: 280px;
+}
+.box .box-content select,
+input {
+	width: 80%;
+	margin-left: 30px;
+	padding: 1px 6px;
+	font-size: 13px;
+	font-weight: 400;
+	border-radius: 4px;
+	border: 1px solid #787777;
+}
+
+.box-element p {
+	font-size: 12px;
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box-content {
+	text-align: end;
+}
+.box-content button {
+	padding: 1px 7px;
+	border: 1px solid rgb(100, 99, 99);
+	border-radius: 3px;
+	font-size: 13px;
+}
+.box-content button,
+a {
+	padding: 1px 10px;
+	border: 1px solid rgb(100, 99, 99);
+	border-radius: 3px;
+	background-color: #eeeeee;
+	text-decoration: none;
+	color: black;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 20px;
+	background-color: #f2f2f2;
+	margin: 10px;
+	border-radius: 0px 0px 6px 6px;
+	border-top: 5px solid #86c775;
+}
+.footer span {
+	font-size: 10px;
+	color: #666666;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-right span {
+	margin-right: 15px;
+}
+
+.stuDetails {
+	display: flex;
+	justify-content: space-between;
+	background-color: #eeeeee;
+	margin-bottom: 10px;
+	padding: 6px 8px;
+}
+.stuDetails p {
+	font-size: 12px;
+}
+.leftDetials {
+	width: 220px;
+}
+.rightDetials {
+	width: 380px;
+}
+.leftTitle {
+	width: 100px;
+}
+.leftTitleDetails {
+	width: 120px;
+}
+.rightTitle {
+	width: 100px;
+}
+.rightTittleDetails {
+	width: 280px;
+}
+h4.heading {
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.table {
+	margin-top: -11px;
+}
+.table th,
+td {
+	font-size: 12px;
+}
+.table th {
+	background-color: #afb7be;
+}
+a.again {
+	font-size: 12px;
+	border: none;
+	background-color: transparent;
+	color: blue;
+	margin-left: 44%;
+}
+.spinner img {
+	height: 180px;
+	width: 180px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+.card {
+	position: relative;
+}
+.alert {
+	padding: 5px 10px;
+	font-size: 13px;
+	font-weight: 600;
+}
